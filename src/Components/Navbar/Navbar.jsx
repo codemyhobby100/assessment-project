@@ -1,6 +1,6 @@
 import React from 'react';
 import './Navbar.css';
-import { BiLogoFacebook, BiLogoTwitter, BiLogoInstagram } from 'react-icons/bi';
+import { BiLogoFacebook, BiLogoTwitter, BiLogoLinkedin } from 'react-icons/bi';
 import { MdLocationOn } from 'react-icons/md';
 import { LuClock9 } from 'react-icons/lu'
 
@@ -49,13 +49,13 @@ const Navbar = () => {
 
                 <ul className="social-list">
                     <li>
-                        <BiLogoFacebook/>
+                        <BiLogoFacebook className='facebook'/>
                     </li>
                     <li>
-                        <BiLogoTwitter/>
+                        <BiLogoTwitter className='twitter'/>
                     </li>
                     <li>
-                        <BiLogoInstagram/>
+                        <BiLogoLinkedin className='linkedin'/>
                     </li>
                 </ul>
             </div>

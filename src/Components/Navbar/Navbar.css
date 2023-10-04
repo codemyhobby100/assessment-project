@@ -45,6 +45,18 @@
     font-size: 25px;
 }
 
+.facebook{
+    color: #3bffa7;
+}
+
+.twitter{
+    color: #86ff3b;
+}
+
+.linkedin{
+    color: #e5d600;
+}
+
 .top-section{
     display: flex;
     flex-direction: row;

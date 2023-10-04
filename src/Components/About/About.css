@@ -52,11 +52,11 @@ h3 {
 }
 
 .card:nth-child(2) {
-    background-color: #fff133; 
+    background-color: #e5d600; 
 }
 
 .card:nth-child(2) .icon {
-    background-color: #fff133; 
+    background-color: #e5d600; 
 }
   
 .card:nth-child(3) {
