@@ -1,0 +1,53 @@
+html {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 !important;
+  max-width: 100%;
+  overflow-x: hidden;
+  padding: 0 !important;
+  touch-action: pan-y, pan-x;
+  transition: all 0.4s cubic-bezier(0.57, 0.25, 0.33, 1) 0s;
+}
+
+.container{
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
+}
+
+li{
+  list-style: none;
+}
+
+
+@media (min-width: 2100px){
+  .container{
+    max-width: 1600px;
+  }
+}
+
+@media (min-width: 576px){
+  .container{
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px){
+  .container{
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px){
+  .container{
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px){
+  .container{
+    max-width: 1200px;
+  }
+}

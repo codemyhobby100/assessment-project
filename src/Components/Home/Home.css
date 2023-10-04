@@ -1,0 +1,49 @@
+.h-wrapper{
+    background: url(../../assets/home.png) ;
+    background-position: center;
+    height: 80vh;
+    overflow: hidden;
+    color: #fff;
+}
+
+.home-container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    height: 80vh;
+    padding-top: 5rem;
+}
+
+
+.subtitle{
+    color: red;
+    font-size: 18px;
+    font-weight: 500;
+    
+}
+
+
+.title{
+    font-size: 50px;
+}
+
+.text{
+    font-size: 18px;
+}
+
+.btn{
+    cursor: pointer;
+    height: 60px;
+    background-color: red;
+    margin-top: 2rem;
+    outline: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0rem 2rem;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    color: white;
+}
